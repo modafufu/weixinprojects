@@ -1,0 +1,6 @@
+function toLower(str){
+  return str.toLowerCase()
+}//声明方法和属性
+module.exports={
+  toLower:toLower//向外共享方法
+}
